@@ -8,7 +8,7 @@ This repository contains the code and analysis for a project aimed at identifyin
 *   Analyze solar radiation data (GHI, DNI, DHI, temperature, wind, etc.).
 *   Identify key trends, correlations, and relationships within the data.
 *   Develop a data-driven strategy for selecting optimal locations for solar installations.
-*   Support data-driven decision-making within the organization.
+*   Support data-driven decision-making within the organization..
 
 **Key Activities:**
 
