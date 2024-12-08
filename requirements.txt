@@ -1,1 +1,6 @@
-ECHO is on.
+pandas
+numpy
+matplotlib
+seaborn
+scipy
+jupyter
