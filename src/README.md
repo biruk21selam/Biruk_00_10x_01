@@ -16,31 +16,6 @@ Correlation Analysis: Investigating relationships between solar radiation, tempe
 Site Selection Analysis: Identifying potential locations based on solar resource availability and other relevant criteria.
 Technologies & Tools:
 
-Python
-Pandas, NumPy, Matplotlib, Seaborn
-Jupyter Notebooks (for data exploration and analysis)
-GitHub (for version control and collaboration)
-Project Structure:
-
-notebooks/: Jupyter Notebooks for data analysis and visualizations.
-src/: Python scripts and modules for data processing and analysis.
-data/: Raw and processed data files.
-docs/: Project documentation and reports.
-To get started:
-
-Clone this repository: git clone <repository_url>
-Create a virtual environment: python3 -m venv venv
-Activate the virtual environment: source venv/bin/activate
-Install required packages: pip install -r requirements.txt
-Explore the Jupyter Notebooks in the notebooks/ directory.
-Contributing:
-
-Contributions are welcome! Please feel free to fork this repository and submit pull requests.
-
-License:
-
-This project is licensed under the MIT License.
-
 Contact:
 
 Biruk Assefa
