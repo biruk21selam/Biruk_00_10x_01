@@ -1,1 +1,13 @@
-{} 
+
+import pandas as pd
+
+# Load datasets
+df1 = pd.read_excel('data/file1.xlsx')
+df2 = pd.read_excel('data/file2.xlsx')
+df3 = pd.read_excel('data/file3.xlsx')
+
+# Combine datasets
+data = pd.concat([df1, df2, df3], ignore_index=True)
+
+# Display basic info
+print(data.info())
