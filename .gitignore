@@ -1,1 +1,6 @@
-ECHO is on.
+
+env/
+__pycache__/
+.vscode/
+data/
+*.ipynb_checkpoints
