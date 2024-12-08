@@ -1,13 +1,21 @@
+name: Python CI
 
-import pandas as pd
+on:
+  push:
+    branches:
+      - main
+      - task-1
 
-# Load datasets
-df1 = pd.read_excel('data/file1.xlsx')
-df2 = pd.read_excel('data/file2.xlsx')
-df3 = pd.read_excel('data/file3.xlsx')
-
-# Combine datasets
-data = pd.concat([df1, df2, df3], ignore_index=True)
-
-# Display basic info
-print(data.info())
+jobs:
+  test:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Run Tests
+        run: pytest
